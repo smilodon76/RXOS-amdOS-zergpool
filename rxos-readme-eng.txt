@@ -34,7 +34,7 @@ To restart the rig, type $ r. To deactivate $ off
 
 All miners run with an administrator account.
 
-It has monitoring only on localhost through the api of the respective miner at door 3333.
+It has monitoring only on localhost through the api of the respective miner at port 3333.
 
 It has underclocking through the miner as well as with the commands $ dpm7, dpm6, dpm5, dpm4, dpm3 for the power state gpu (default on img dpm4) and mdpm2, mdpm1 for gpu-vram (default mdpm2) without the need to restart. restart NOT turn off overclocking, we must change it whenever we want. To reset clocks type $ resetoc.
 
