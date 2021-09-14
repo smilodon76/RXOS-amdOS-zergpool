@@ -79,7 +79,7 @@ Never upgrade the operating system to a newer version. Just upgrade to security 
 
 To upgrade the miners requires a short process. Via samba copy and replace the new version of the miner in the /home/rxos/.miners folder and then $ sudo chmod + x /home/rxos/.miners/*
 
-For maintenance type $ maintenance && sudo cleanup.sh
+For maintenance type $ maintenance && sudo cleanup.sh .
 
 Sudo cleanup.sh deletes the verthash.dat file located in the default path /home/rxos/.cache/minerdata, useful in case it does not work properly.
 If you do any damage to the operating system, copy img again.
