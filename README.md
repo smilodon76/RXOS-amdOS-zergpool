@@ -31,6 +31,8 @@ cd /home/rxos/.miners/phoenixminer
 
 You leave this information as it is, otherwise the miner will not work.
 
+to save type ctrl + x then y and enter.
+
 To check if it works type $ sudo ./phoenixminer and if all goes well stop it with ctrl + c. Then type $ phoenixminer the mining will start automatically at the start of the rig you do not need to do anything else.For miner output type $ miner .
 
 Avoid overclocking so that the rig does not get stuck. It is set to restart the miner as a service if something goes wrong but with excessive overclocking, if a card gets stuck it will need a manual restart to come back.
