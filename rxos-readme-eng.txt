@@ -7,7 +7,7 @@ USE IT AT YOUR OWN RISK.
 It does not have a graphical interface.
 
 Based on ubuntu server 18.04 kernel 4.17 & amdgpu-pro 19.50.
-Minimum requirements 8gb usb, hdd. (No tested ssd) 1gb ram and up for ethash, 2-3gb and up for verthash.
+Minimum requirements 8gb usb, hdd. (No tested ssd) 1gb ram and up for ethash, 2-3gb and up for verthash.Amd rx4XX, rx5XX graphics cards and those supported by the driver amdgpu-pro 19.50
 
 Download img https://drive.google.com/drive/folders/1ZMJ7LENK5QTchnTLKzmKruas1PqLPvld?usp=sharing
 
