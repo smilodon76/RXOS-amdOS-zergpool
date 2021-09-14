@@ -82,6 +82,7 @@ If you do any damage to the operating system, copy img again.
 
 username: rxos
 pass: 3826
+
 If you liked it and use it constantly please make a donation.
 
 Bitcoin BTC: bc1qyvekv9vxcsc7lxfn4g2z87dxdw70y5mer9furgg3gqw8y2y5pf3s836wrz
