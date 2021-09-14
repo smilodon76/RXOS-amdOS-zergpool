@@ -11,6 +11,8 @@ Minimum requirements 8gb usb, hdd. (No tested ssd) 1gb ram and up for ethash, 2-
 
 Download img https://drive.google.com/drive/folders/1ZMJ7LENK5QTchnTLKzmKruas1PqLPvld?usp=sharing
 
+The initial start may be delayed.
+
 After unzipping it, copy it and start the operating system, login or via ssh from another computer with username: rxos ​​& pass: 3826.
 The mining will start working for me, to check if it works properly we type $ miner and if all the cards that are required work, we type $ minestop to stop.
 With the $ ls command we see executables that exist and correspond to each miner phoenixminer.sh, teamredminer.sh, ethminer.sh. I explain the procedure for phoenixminer which is the same for all miners.
@@ -19,6 +21,8 @@ $ nano phoenixminer.sh and we process the login details in the mining pool witho
 cd /home/rxos/.miners/phoenixminer
 ./PhoenixMiner
 You leave this information as it is, otherwise the miner will not work.
+
+to save type ctrl + x then y and enter.
 
 To check if it works type $ sudo ./phoenixminer and if all goes well stop it with ctrl + c. Then type $ phoenixminer the mining will start automatically at the start of the rig you do not need to do anything else.For miner output type $ miner .
 Avoid overclocking so that the rig does not get stuck. It is set to restart the miner as a service if something goes wrong but with excessive overclocking, if a card gets stuck it will need a manual restart to come back.
