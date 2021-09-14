@@ -13,6 +13,8 @@ Minimum requirements 8gb usb, hdd. (No tested ssd) 1gb ram and up for ethash, 2-
 
 Download img https://drive.google.com/drive/folders/1ZMJ7LENK5QTchnTLKzmKruas1PqLPvld?usp=sharing
 
+The initial start may be delayed.
+
 After unzipping it, copy it and start the operating system, login or via ssh from another computer with username: rxos & pass: 3826.
 
 The mining will start working for me, to check if it works properly we type $ miner and if all the cards that are required work, we type $ minestop to stop.
