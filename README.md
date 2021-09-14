@@ -84,6 +84,8 @@ For maintenance type $ maintenance && sudo cleanup.sh .
 Sudo cleanup.sh deletes the verthash.dat file located in the default path /home/rxos/.cache/minerdata, useful in case it does not work properly.
 If you do any damage to the operating system, copy img again.
 
+if you use more than 1 rigs you will have to change the hostname for the rest. Type in the rig you want to rename $ sudo hostnamectl set-hostname rxos1, rxos2 etc
+
 username: rxos
 pass: 3826
 
