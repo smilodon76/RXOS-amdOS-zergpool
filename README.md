@@ -14,14 +14,18 @@ Download img https://drive.google.com/drive/folders/1ZMJ7LENK5QTchnTLKzmKruas1Pq
 
 After unzipping it, copy it and start the operating system, login or via ssh from another computer with username: rxos ​​& pass: 3826.
 The mining will start working for me, to check if it works properly we type $ miner and if all the cards that are required work, we type $ minestop to stop.
+
 With the $ ls command we see executables that exist and correspond to each miner phoenixminer.sh, teamredminer.sh, ethminer.sh. I explain the procedure for phoenixminer which is the same for all miners.
+
 $ nano phoenixminer.sh and we process the login details in the mining pool without disturbing the miners' routes or the existing settings.
 #! / bin / bash
 cd /home/rxos/.miners/phoenixminer
 ./PhoenixMiner
+
 You leave this information as it is, otherwise the miner will not work.
 
 To check if it works type $ sudo ./phoenixminer and if all goes well stop it with ctrl + c. Then type $ phoenixminer the mining will start automatically at the start of the rig you do not need to do anything else.For miner output type $ miner .
+
 Avoid overclocking so that the rig does not get stuck. It is set to restart the miner as a service if something goes wrong but with excessive overclocking, if a card gets stuck it will need a manual restart to come back.
 
 To stop the miner type $ minestop.
@@ -49,7 +53,9 @@ To check temperatures and statistics for graphics cards type $ gpu, gpu1, gpu2 .
 It has no hidden charges and fees except from the miners.
 The miners are in the path /home/rxos/.miners.
 Never upgrade the operating system to a newer version. Just upgrade to security programs and updates.
+
 To upgrade the miners requires a short process. Via samba copy and replace the new version of the miner in the /home/rxos/.miners folder and then $ sudo chmod + x /home/rxos/.miners/*
+
 For maintenance type $ maintenance && sudo cleanup.sh
 Sudo cleanup.sh deletes the verthash.dat file located in the default path /home/rxos/.cache/minerdata, useful in case it does not work properly.
 If you do any damage to the operating system, copy img again.
