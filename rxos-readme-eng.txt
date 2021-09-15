@@ -15,7 +15,7 @@ The initial start may be delayed.
 
 After unzipping it, copy it and start the operating system, login or via ssh from another computer with username: rxos ​​& pass: 3826.
 The mining will start working for me, to check if it works properly we type $ miner and if all the cards that are required work, we type $ minestop to stop.
-With the $ ls command we see executables that exist and correspond to each miner phoenixminer.sh, teamredminer.sh, ethminer.sh. I explain the procedure for phoenixminer which is the same for all miners.
+With the $ ls command we see executables that exist and correspond to each miner phoenixminer.sh, teamredminer.sh, ethminer.sh,lolminer.sh . I explain the procedure for phoenixminer which is the same for all miners.
 $ nano phoenixminer.sh and we process the login details in the mining pool without disturbing the miners' routes or the existing settings.
 #! / bin / bash
 cd /home/rxos/.miners/phoenixminer
@@ -36,7 +36,7 @@ All miners run with an administrator account.
 
 It has monitoring only on localhost through the api of the respective miner at port 3333.
 
-It has underclocking through the miner as well as with the commands $ dpm7, dpm6, dpm5, dpm4, dpm3 for the power state gpu (default on img dpm4) and mdpm2, mdpm1 for gpu-vram (default mdpm2) without the need to restart. restart NOT turn off underclocking, we must change it whenever we want. To reset clocks type $ resetoc.
+It has underclocking through the miner as well as with the commands $ dpm7, dpm6, dpm5, dpm4, dpm3 for the power state gpu (default on img dpm4) without the need to restart. restart NOT turn off underclocking, we must change it whenever we want. To reset clocks type $ resetoc.
 
 It has wifi we type $ nano wifi.txt for instructions.
 It has atiflash for bios change. We type $ sudo atiflash -h
