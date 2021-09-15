@@ -49,7 +49,7 @@ All miners run with an administrator account.
 
 It has monitoring only on localhost through the api of the respective miner at port 3333.
 
-It has underclocking through the miner as well as with the commands $ dpm7, dpm6, dpm5, dpm4, dpm3 for the power state gpu (default on img dpm4) and mdpm2, mdpm1 for gpu-vram (default mdpm2) without the need to restart. restart NOT turn off underclocking, we must change it whenever we want. To reset clocks type $ resetoc.
+It has underclocking through the miner as well as with the commands $ dpm7, dpm6, dpm5, dpm4, dpm3 for the power state gpu (default on img dpm4) without the need to restart. restart NOT turn off underclocking, we must change it whenever we want. To reset clocks type $ resetoc.
 
 It has wifi we type $ nano wifi.txt for instructions.
 
