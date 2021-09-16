@@ -19,7 +19,7 @@ After unzipping it, copy it and start the operating system, login or via ssh fro
 
 The mining will start working for me, to check if it works properly we type $ miner and if all the cards that are required work, we type $ minestop to stop.
 
-With the $ ls command we see executables that exist and correspond to each miner phoenixminer.sh, teamredminer.sh, ethminer.sh. I explain the procedure for phoenixminer which is the same for all miners.
+With the $ ls command we see executables that exist and correspond to each miner phoenixminer.sh, teamredminer.sh, ethminer.sh,lolminer.sh . I explain the procedure for phoenixminer which is the same for all miners.
 
 $ nano phoenixminer.sh and we process the login details in the mining pool without disturbing the miners' routes or the existing settings.
 
@@ -84,7 +84,7 @@ For maintenance type $ maintenance && sudo cleanup.sh .
 Sudo cleanup.sh deletes the verthash.dat file located in the default path /home/rxos/.cache/minerdata, useful in case it does not work properly.
 If you do any damage to the operating system, copy img again.
 
-if you use more than 1 rigs you will have to change the hostname for the rest. Type in the rig you want to rename $ sudo hostnamectl set-hostname rxos1, rxos2 etc
+if you use more than 1 rigs you will have to change the hostname for the rest. Type in the rig you want to rename $ sudo hostnamectl set-hostname rxos1  rxos2 etc
 
 username: rxos
 pass: 3826
