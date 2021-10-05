@@ -77,7 +77,7 @@ All miners run with an administrator account.
 It has no monitoring. Access is only available to a local network via ssh for security and has a firewall enabled.
 
 It has underclocking with the commands $ dpm7, dpm6, dpm5, dpm4, dpm3 for the power state gpu (default on img dpm5) without the need to restart. The autominer for zergpool.com has dpm set for each algorithm. Currently not supported different dpm for each card.
-After restarting DEN do not disable underclocking, we must change it whenever we want. To reset the clocks type $ resetoc.
+After restarting do not disable underclocking, we must change it whenever we want. To reset the clocks type $ resetoc.
 
 Overclocking is possible through from the miner, first we type $ resetoc and then we start the miner with overclocking settings.
 
