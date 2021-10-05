@@ -28,6 +28,8 @@ The first boot may be delayed.
 
 # For zergpool algo switching profit #
 
+first type $ minestop to stop miner.
+
 Step 1: enter $ nano wallet.conf and change the wallet and payment currency. Leave the worker as is.
 
 Step 2: type $ nano benches and change the hashrate of gpus only in the algorithms Ethash, etchash, kawpow, ubqhash, verthash in the same format.For ethash algos 50.5Mhs type 50.500,for kawpow 15.3Mhs type 15300, for verthash 300hs type 300 and for 1.5Khs type 1500.
@@ -39,6 +41,8 @@ to save type ctrl + x then y and enter.
 Step 3: type $ autominer and the mining will start automatically at the start of the rig you do not need to do anything else. Type $ miner for miner-output.
 
 # for other coins and pools #
+
+first type $ minestop to stop miner.
 
 With the $ ls command we see executables that exist and correspond to each miner phoenixminer.sh, teamredminer.sh, lolminer.sh. I explain the procedure for phoenixminer which is the same for all miners.
 
@@ -105,7 +109,7 @@ Never upgrade to a newer version because it will stop working.
 
 The miners are in the path /home/rxos/.miners.
 
-To upgrade the miners requires a short process. Via samba copy and replace the new version of the miner in the /home/rxos/.miners folder and then $ sudo chmod + x /home/rxos/.miners/*
+To upgrade the miners requires a short process. Via samba copy and replace the new version of the miner in the /home/rxos/.miners folder and then $ sudo chmod +x /home/rxos/.miners/*
 
 For maintenance type $ maintenance && sudo cleanup.sh
 
