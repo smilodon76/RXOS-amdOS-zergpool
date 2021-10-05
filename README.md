@@ -1,11 +1,10 @@
-##RXOS MINING OS for amd gpus with zergpool multialgo switch##
+# RXOS MINING OS for amd gpus with zergpool multialgo switch #
+
 
 Download img https://drive.google.com/drive/folders/1ZMJ7LENK5QTchnTLKzmKruas1PqLPvld?usp=sharing
 
-#####################
 
-version 1.2
-
+# version 1.2
 changelog
 
 add zergpool.com multialgo switching profit.Supported algos ethash, etchash, kawpow, ubqhash, verthash.
@@ -14,11 +13,9 @@ add auto-hostname on boot
 
 add straps --ref 25 on boot
 
-#####################
-
 The operating system is very easy, simple and light and is addressed to those who know what mining is, know how to copy an img file to usb, ssd and hdd, have basic knowledge of linux terminal, ssh, nano, computer ip finding and is oriented to long-term durability of graphics cards.
 
-USE IT AT YOUR OWN RISK.
+# USE IT AT YOUR OWN RISK.
 
 It does not have a graphic environment.
 
@@ -29,7 +26,7 @@ For zergpool and verthash it is recommended to use hdd, ssd because the verthash
 
 The first boot may be delayed.
 
-## For zergpool algo switching profit ##
+# For zergpool algo switching profit #
 
 Step 1: enter $ nano wallet.conf and change the wallet and payment currency. Leave the worker as is.
 
@@ -41,7 +38,7 @@ to save type ctrl + x then y and enter.
 
 Step 3: type $ autominer and the mining will start automatically at the start of the rig you do not need to do anything else. Type $ miner for miner-output.
 
-## for other coins and pools ##
+# for other coins and pools #
 
 With the $ ls command we see executables that exist and correspond to each miner phoenixminer.sh, teamredminer.sh, lolminer.sh. I explain the procedure for phoenixminer which is the same for all miners.
 
