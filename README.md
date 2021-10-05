@@ -1,4 +1,4 @@
-RXOS MINING OS for amd gpus
+RXOS MINING OS for amd gpus with zergpool multialgo switch
 
 Download img https://drive.google.com/drive/folders/1ZMJ7LENK5QTchnTLKzmKruas1PqLPvld?usp=sharing
 
