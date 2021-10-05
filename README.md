@@ -15,7 +15,7 @@ add straps --ref 25 on boot
 
 The operating system is very easy, simple and light and is addressed to those who know what mining is, know how to copy an img file to usb, ssd and hdd, have basic knowledge of linux terminal, ssh, nano, computer ip finding and is oriented to long-term durability of graphics cards.
 
-# USE IT AT YOUR OWN RISK.
+ USE IT AT YOUR OWN RISK.
 
 It does not have a graphic environment.
 
