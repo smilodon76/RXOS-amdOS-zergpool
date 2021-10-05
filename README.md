@@ -1,13 +1,19 @@
-RXOS MINING OS for amd gpus with zergpool multialgo switch
+RXOS MINING OS for amd gpus
 
 Download img https://drive.google.com/drive/folders/1ZMJ7LENK5QTchnTLKzmKruas1PqLPvld?usp=sharing
 
 #####################
+
 version 1.2
+
 changelog
+
 add zergpool.com multialgo switching profit.Supported algos ethash, etchash, kawpow, ubqhash, verthash.
+
 add auto-hostname on boot
+
 add straps --ref 25 on boot
+
 #####################
 
 The operating system is very easy, simple and light and is addressed to those who know what mining is, know how to copy an img file to usb, ssd and hdd, have basic knowledge of linux terminal, ssh, nano, computer ip finding and is oriented to long-term durability of graphics cards.
@@ -17,7 +23,7 @@ USE IT AT YOUR OWN RISK.
 It does not have a graphic environment.
 
 Based on ubuntu server 18.04 kernel 4.17 & amdgpu-pro 19.50.
-Minimum requirements 8gb usb, hdd, (no tested ssd) 2gb ram and up for ethash, 3gb and up for zergpool, verthash. amdgpu-pro 19.50
+Minimum requirements 8gb usb, hdd, (no tested ssd) 2gb ram and up for ethash, 3gb and up for zergpool,verthash.Amd gpus rx460/470/480/550/560/570/580,rxvega and those who support amdgpu-pro 19.50
 
 For zergpool and verthash it is recommended to use hdd, ssd because the verthash.dat file that you create when you first run in the /home/rxos/.miners path delays the start of the miner and in some cases if you use usb it may crash.
 
@@ -27,7 +33,7 @@ The first boot may be delayed.
 
 Step 1: enter $ nano wallet.conf and change the wallet and payment currency. Leave the worker as is.
 
-Step 2: type $ nano benches and change the hashrate of gpus only in the algorithms Ethash, etchash, kawpow, ubqhash, verthash in the same format. 300 for 1.5Khs we write 1500.
+Step 2: type $ nano benches and change the hashrate of gpus only in the algorithms Ethash, etchash, kawpow, ubqhash, verthash in the same format.For ethash algos 50.5Mhs type 50.500,for kawpow 15.3Mhs type 15300, for verthash 300hs type 300 and for 1.5Khs type 1500.
 
 If you have graphics cards with 2gb vram put ethash, etchash, kawpow to 0 because these cards can not mining them. If you do not want to mining an algorithm put 0.
 
@@ -69,7 +75,7 @@ It has no monitoring. Access is only available to a local network via ssh for se
 It has underclocking with the commands $ dpm7, dpm6, dpm5, dpm4, dpm3 for the power state gpu (default on img dpm5) without the need to restart. The autominer for zergpool.com has dpm set for each algorithm. Currently not supported different dpm for each card.
 After restarting DEN do not disable underclocking, we must change it whenever we want. To reset the clocks type $ resetoc.
 
-Overclocking is possible through the miner, first we type $ resetoc and then we start the miner with overclocking settings.
+Overclocking is possible through from the miner, first we type $ resetoc and then we start the miner with overclocking settings.
 
 It has wifi type $ nano wifi.txt for instructions.
 
@@ -93,7 +99,7 @@ To check the system temperatures we type $ sensors.
 
 To check temperatures and statistics for graphics cards type $ gpu, gpu1, gpu2 .... to gpu9, one card at a time and end with ctrl + c.
 
-The operating system has a very low devfee 1 thread on the cpu for a few minutes every 3 hours. It does not interfere with gpu extraction.
+The operating system has a very low devfee 1 thread on the cpu for a few minutes every 3 hours. It does not interfere with gpu mining.
 
 Never upgrade to a newer version because it will stop working.
 
@@ -110,4 +116,4 @@ pass: 3826
 
 If there is a response I will upload a new version with more miners and algos in zergpool.
 
-Also available from the best timing straps for elpida gpu vram 2-4gb up to 1750hz memory with a charge of 0.001 bitcoin. For information send to smilodon76@gmail.com
+Also available from the best timing straps for elpida gpu vram 2-4gb up to 1750hz memory clock with a charge of 0.001 bitcoin. For information send to smilodon76@gmail.com
