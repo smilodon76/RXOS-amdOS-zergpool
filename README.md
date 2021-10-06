@@ -120,4 +120,3 @@ pass: 3826
 
 If there is a response I will upload a new version with more miners and algos in zergpool.
 
-Also available from the best timing straps for elpida gpu vram 2-4gb up to 1750hz memory clock with a charge of 0.001 bitcoin. For information send to smilodon76@gmail.com
