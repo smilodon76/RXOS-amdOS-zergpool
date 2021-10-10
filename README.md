@@ -19,9 +19,9 @@ The first boot may be delayed.
 
 first type $ minestop to stop miner.
 
-Step 1: enter $ nano zergpool.conf and change the wallet, the payment currency and the dpmstate for underclocking. Leave the worker as is.
+Step 1: enter $ nano zergpool.conf  and change the wallet, the payment currency and the dpmstate for underclocking. Leave the worker as is.
 
-Step 2: type $ nano benches and change the hashrate of gpus in the same format.For ethash algos 50.5Mhs type 50.500,for kawpow 15.3Mhs type 15300, for verthash 300hs type 300 and for 1.5Khs type 1500.
+Step 2: enter $ nano benches  and change the hashrate of gpus in the same format.For ethash algos 50.5Mhs type 50.500,for kawpow 15.3Mhs type 15300, for verthash 300hs type 300 and for 1.5Khs type 1500.
 
 If you have graphics cards with 2gb vram put ethash, etchash, kawpow to 0 because these cards can not mining them. If you do not want to mining an algorithm put 0.
 
