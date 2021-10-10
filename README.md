@@ -1,20 +1,10 @@
-# RXOS MINING OS for amd gpus with zergpool multialgo switch #
-
+RXOS MINING OS for amd gpus
 
 Download img https://drive.google.com/drive/folders/1ZMJ7LENK5QTchnTLKzmKruas1PqLPvld?usp=sharing
 
-# version 1.2
-changelog
-
-add zergpool.com multialgo switching profit.Supported algos ethash, etchash, kawpow, ubqhash, verthash.
-
-add auto-hostname on boot
-
-add straps --ref 25 on boot
-
 The operating system is very easy, simple and light and is addressed to those who know what mining is, know how to copy an img file to usb, ssd and hdd, have basic knowledge of linux terminal, ssh, nano, computer ip finding and is oriented to long-term durability of graphics cards.
 
- USE IT AT YOUR OWN RISK.
+USE IT AT YOUR OWN RISK.
 
 It does not have a graphic environment.
 
@@ -29,7 +19,7 @@ The first boot may be delayed.
 
 first type $ minestop to stop miner.
 
-Step 1: enter $ nano wallet.conf and change the wallet and payment currency. Leave the worker as is.
+Step 1: enter $ nano zergpool.conf and change the wallet, the payment currency and the dpmstate for underclocking. Leave the worker as is.
 
 Step 2: type $ nano benches and change the hashrate of gpus only in the algorithms Ethash, etchash, kawpow, ubqhash, verthash in the same format.For ethash algos 50.5Mhs type 50.500,for kawpow 15.3Mhs type 15300, for verthash 300hs type 300 and for 1.5Khs type 1500.
 
@@ -43,9 +33,13 @@ Step 3: type $ autominer and the mining will start automatically at the start of
 
 first type $ minestop to stop miner.
 
+$ nano wallet.conf and paste the wallet into each currency.
+
 With the $ ls command we see executables that exist and correspond to each miner phoenixminer.sh, teamredminer.sh, lolminer.sh. I explain the procedure for phoenixminer which is the same for all miners.
 
 $ nano phoenixminer.sh and we process the login details in the mining pool without disturbing the miners' routes or the existing settings.
+
+Only change the pool and the wallet from wallet.conf. For ethereum classic the wallet will be $ ETCWALLET
 
 #! / bin / bash
 
@@ -76,6 +70,7 @@ All miners run with an administrator account.
 It has no monitoring. Access is only available to a local network via ssh for security and has a firewall enabled.
 
 It has underclocking with the commands $ dpm7, dpm6, dpm5, dpm4, dpm3 for the power state gpu (default on img dpm5) without the need to restart. The autominer for zergpool.com has dpm set for each algorithm. Currently not supported different dpm for each card.
+
 After restarting do not disable underclocking, we must change it whenever we want. To reset the clocks type $ resetoc.
 
 Overclocking is possible through from the miner, first we type $ resetoc and then we start the miner with overclocking settings.
@@ -84,13 +79,13 @@ It has wifi type $ nano wifi.txt for instructions.
 
 It has atiflash for bios change. We type $ sudo atiflash -h.
 
-It has amdgpu-fancontroler automatic, the fans do not operate below 40 degrees.
+It has amdgpu-fancontroler automatic, the fans do not operate below 40 degrees,but unfortunately it only works on the first card. Adjust the fan speed in the bios, set the temp target to 60 or 65 degrees and it will work just fine.
 
 It has amdmemtweak for changing straps while the rig works. Type $ sudo amdmemtweak --help
 
 It has amdmeminfo for graphics card memory information, we type $ amdmeminfo.
 
-It has a samba server to access the /home/rxos folder. We type $ samba to activate it for 2.5 hours and the path is smb: // hostname / Homes /
+It has a samba server to access the /home/rxos folder and the path is smb://hostname/Homes/
 
 The hostname is located on the top right of ssh motd.
 
@@ -108,7 +103,7 @@ Never upgrade to a newer version because it will stop working.
 
 The miners are in the path /home/rxos/.miners.
 
-To upgrade the miners requires a short process. Via samba copy and replace the new version of the miner in the /home/rxos/.miners folder and then $ sudo chmod +x /home/rxos/.miners/*
+To upgrade the miners requires a short process. Via samba copy and replace the new version of the miner in the /home/rxos/.miners folder and then $ sudo chmod + x /home/rxos/.miners/* or just restart.
 
 For maintenance type $ maintenance && sudo cleanup.sh
 
@@ -119,3 +114,12 @@ pass: 3826
 
 If there is a response I will upload a new version with more miners and algos in zergpool.
 
+# changelog
+version 1.3
+add cryptonight_haven algo on zergpool algo switch
+small fixes on zergpool algo switch
+
+version 1.2
+add zergpool.com multialgo switching profit.Supported algos ethash,etchash,kawpow,ubqhash,verthash.
+add auto-hostname on boot
+add straps --ref 25 on boot
