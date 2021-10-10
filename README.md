@@ -15,7 +15,7 @@ For zergpool and verthash it is recommended to use hdd, ssd because the verthash
 
 The first boot may be delayed.
 
-# For zergpool algo switching profit #
+# For zergpool algo switching profit
 
 first type $ minestop to stop miner.
 
@@ -29,7 +29,7 @@ to save type ctrl + x then y and enter.
 
 Step 3: type $ autominer and the mining will start automatically at the start of the rig you do not need to do anything else. Type $ miner for miner-output.
 
-# for other coins and pools #
+# for other coins and pools
 
 first type $ minestop to stop miner.
 
@@ -116,10 +116,15 @@ If there is a response I will upload a new version with more miners and algos in
 
 # changelog
 version 1.3
+
 add cryptonight_haven algo on zergpool algo switch
+
 small fixes on zergpool algo switch
 
 version 1.2
+
 add zergpool.com multialgo switching profit.Supported algos ethash,etchash,kawpow,ubqhash,verthash.
+
 add auto-hostname on boot
+
 add straps --ref 25 on boot
