@@ -15,6 +15,8 @@ Minimum requirements 8gb usb, hdd, (no tested ssd) 2gb ram.Amd gpus rx460/470/48
 
 support up to 6 gpus with overclocking and auto fancontrol.
 
+all edits are done with the nano word processor
+
 write the img and brwse to your computer with windows,find disk 'rxos-conf'.paste all your wallets on wallets conf.
 boot the rig and connect via ssh
 user:rxos
@@ -22,16 +24,17 @@ pass:1
 
 for all commands type $ rxos-help
 
+type $ wallets and paste your coin wallets btc eth rvn etc,zergpool and payout coin
+
 # For zergpool algo switching profit
 
-type $ conf and write on globalminer zergpool GLOBALMINER=zergpool 
+7 algos supported cryptonight_gpu cryptonight_haven etchash ethash firopow kawpow verthash
 
-save
-type $ wallets and paste your coin wallets btc eth rvn zergpool and payout coin.
+type $ conf and write on globalminer zergpool GLOBALMINER=zergpool
 
-type $ zbenches and change your gpus hashrate.change it and on the fly
+type $ zbenches and change your gpus hashrate.change it and on the fly.
 
-type $ zwatts and change power consuption for all gpus on wall.for 500watt type 0.5 for 1200watt type 1.2.change it and on the fly
+type $ zwatts and change power consuption for all gpus on wall.for 225watt type 0.225 for 1230watt type 1.230.change it and on the fly
 
 if you want you do not change the benches and watts. it will work satisfactorily.default hashrates and watts they correspond in one rx470 8gb micron memory.
 
@@ -64,7 +67,7 @@ example for gpu 0 and 1
 
 #gpu core settings#        
 
-cclock0=1100   cclock1=1150    cclock2=    cclock3=    cclock4=    cclock5=
+cclock0=1100    cclock1=1150    cclock2=    cclock3=    cclock4=    cclock5=
 cmv0=875        cmv1=900        cmv2=        cmv3=        cmv4=        cmv5=                     
 dpm0=07         dpm1=07         dpm2=         dpm3=         dpm4=         dpm5=                
                     
