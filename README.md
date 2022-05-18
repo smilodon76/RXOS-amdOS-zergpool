@@ -15,7 +15,7 @@ Minimum requirements 8gb usb, hdd, (no tested ssd) 2gb ram.Amd gpus rx460/470/48
 
 support up to 6 gpus with overclocking and auto fancontrol.
 
-write the img and brwse to your computer with windoes disk 'rxos-conf'.paste all your wallets on wallets conf.
+write the img and brwse to your computer with windows,find disk 'rxos-conf'.paste all your wallets on wallets conf.
 boot the rig and connect via ssh
 user:rxos
 pass:1
@@ -43,11 +43,11 @@ type $ conf and write on globalminer phoenixminer or teamredminer
 
 example
 
-GLOBALMINER=teamredminer
+GLOBALMINER=phoenixminer
 
-ARGS='-a ethash' <== all arguments inside cuotes
+ARGS='-amd -acm -mi 14 -gt 25' <== all arguments inside cuotes
 
-POOL=stratum+tcp://eth.2miners.com:2020
+POOL=eth.2miners.com:2020
 
 WALLET=$ETHWALLET <== source from  wallets conf
 
