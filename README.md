@@ -11,7 +11,7 @@ It does not have a monitoring.all ports in firewall its closed.
 
 Based on ubuntu server 18.04 kernel 4.17 & amdgpu-pro 20.40.
 
-Minimum requirements 8gb usb, hdd, (no tested ssd) 2gb ram.Amd gpus rx460/470/480/550/560/570/580 4gb and up no tested rxvega rx5000xt rx6000xt.
+Minimum requirements 8gb usb, hdd, (no tested ssd) 2gb ram.Amd gpus rx460/470/480/550/560/570/580/590 4gb and up no tested rxvega rx5000xt rx6000xt.
 
 support up to 6 gpus with overclocking and auto fancontrol.
 
