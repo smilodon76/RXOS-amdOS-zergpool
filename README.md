@@ -7,26 +7,32 @@ The operating system is very easy, simple and light and is addressed to those wh
 USE IT AT YOUR OWN RISK.
 
 It does not have a graphic environment.working only local with ssh.
+It does not have a monitoring.all ports in firewall its closed.
 
 Based on ubuntu server 18.04 kernel 4.17 & amdgpu-pro 20.40.
 
-Minimum requirements 8gb usb, hdd, (no tested ssd) 2gb ram.Amd gpus rx460/470/480/550/560/570/580 no tested rxvega rx5000xt rx6000xt.
+Minimum requirements 8gb usb, hdd, (no tested ssd) 2gb ram.Amd gpus rx460/470/480/550/560/570/580 4gb and up no tested rxvega rx5000xt rx6000xt.
 
 boot the rig and connect via ssh
 user:rxos
 pass:1
+
+for all commands type $ rxos-help
+
 # For zergpool algo switching profit
 
-type $ conf and write on globalminer zergpool example GLOBALMINER=zergpool 
+type $ conf and write on globalminer zergpool GLOBALMINER=zergpool 
 
 save
-type $wallets and paste your coin wallets btc eth rvn zergpool and payout coin.
+type $ wallets and paste your coin wallets btc eth rvn zergpool and payout coin.
 
-type zbenches and change your gpus hashrate
+type $ zbenches and change your gpus hashrate
 
-type zwatts and change power consuption for all gpus on wall.for 500watt type 0.5 for 1200watt type 1.2 
+type $ zwatts and change power consuption for all gpus on wall.for 500watt type 0.5 for 1200watt type 1.2 
 
-save and type allow to start miner.
+if you want you do not change the benches and watts. it will work satisfactorily.default hashrates and watts they correspond in one rx470 8gb micron memory.
+
+save and type $ allow to start miner.
 
 # for other coins and pools
 
@@ -36,14 +42,37 @@ example
 
 GLOBALMINER=teamredminer
 
-ARGS='-a ethash' 
+ARGS='-a ethash' <== all arguments inside cuotes
 
-POOL=eth.2miners.com:2020
+POOL=stratum+tcp://eth.2miners.com:2020
 
-WALLET=$ETHWALLET   --> from paste in wallets
+WALLET=$ETHWALLET <== source from  wallets conf
 
 PASS=x
 
-save and type minestop to restart miner
+save and type $ minestop to restart miner
 
+# overclocking
 
+# be careful what you do may not damage your cards.
+
+type $ set-oc and write your gpu oc clocks 
+example for gpu 0 and 1
+#gpu core settings#        
+
+cclock0=1100   cclock1=1150    cclock2=    cclock3=    cclock4=    cclock5=
+cmv0=875        cmv1=900        cmv2=        cmv3=        cmv4=        cmv5=                     
+dpm0=07         dpm1=07         dpm2=         dpm3=         dpm4=         dpm5=                
+                    
+#gpu vram settings#
+
+mclock0=1900    mclock1=1950    mclock2=    mclock3=    mclock4=    mclock5=
+mmv0=875        mmv1=900        mmv2=        mmv3=        mmv4=        mmv5=
+
+REF=100
+
+save and type $ apply-oc
+
+if there is interest and donations I will upload a newer version with nicehash and miningpoolhub algo switch
+
+donate: bc1qlzssudqre7tujz92ap6dscv5rjfs5t37e8eqtex4app8hwd4j9dq7dh6fu
