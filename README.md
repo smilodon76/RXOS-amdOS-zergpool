@@ -58,6 +58,7 @@ save and type $ minestop to restart miner
 
 type $ set-oc and write your gpu oc clocks 
 example for gpu 0 and 1
+
 #gpu core settings#        
 
 cclock0=1100   cclock1=1150    cclock2=    cclock3=    cclock4=    cclock5=
