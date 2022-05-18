@@ -84,6 +84,17 @@ REF=100
 
 save and type $ apply-oc
 
+
+It has atiflash for bios change. We type $sudo atiflash -h.
+
+It has amdgpu-fancontroler automatic, the fans do not operate below 40 degrees.
+
+It has amdmemtweak for changing straps while the rig works. Type $sudo amdmemtweak --help
+
+It has amdmeminfo for graphics card memory information, we type $amdmeminfo.
+
+It has a samba server to access the /home/rxos folder and the path is on linux smb://localhost/home/  and on windows smb:\\localhost\home
+
 if there is interest and donations I will upload a newer version with overclocking mods nicehash and miningpoolhub algo switch
 
 donate: bc1qfevx3dv3ctye8xnrxt4mpau4qmuxeqepl8dgqcfqs47p7klck3pqd7ulvw
