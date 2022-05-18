@@ -76,4 +76,4 @@ save and type $ apply-oc
 
 if there is interest and donations I will upload a newer version with nicehash and miningpoolhub algo switch
 
-donate: bc1qlzssudqre7tujz92ap6dscv5rjfs5t37e8eqtex4app8hwd4j9dq7dh6fu
+donate: bc1qfevx3dv3ctye8xnrxt4mpau4qmuxeqepl8dgqcfqs47p7klck3pqd7ulvw
