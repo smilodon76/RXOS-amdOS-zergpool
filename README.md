@@ -13,7 +13,9 @@ Based on ubuntu server 18.04 kernel 4.17 & amdgpu-pro 20.40.
 
 Minimum requirements 8gb usb, hdd, (no tested ssd) 2gb ram.Amd gpus rx460/470/480/550/560/570/580 4gb and up no tested rxvega rx5000xt rx6000xt.
 
-boot the rig and connect via ssh
+support up to 6 gpus with overclocking and auto fancontrol.
+
+write the img boot the rig and connect via ssh
 user:rxos
 pass:1
 
