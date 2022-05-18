@@ -15,7 +15,8 @@ Minimum requirements 8gb usb, hdd, (no tested ssd) 2gb ram.Amd gpus rx460/470/48
 
 support up to 6 gpus with overclocking and auto fancontrol.
 
-write the img boot the rig and connect via ssh
+write the img and brwse to your computer with windoes disk 'rxos-conf'.paste all your wallets on wallets conf.
+boot the rig and connect via ssh
 user:rxos
 pass:1
 
@@ -28,9 +29,9 @@ type $ conf and write on globalminer zergpool GLOBALMINER=zergpool
 save
 type $ wallets and paste your coin wallets btc eth rvn zergpool and payout coin.
 
-type $ zbenches and change your gpus hashrate
+type $ zbenches and change your gpus hashrate.change it and on the fly
 
-type $ zwatts and change power consuption for all gpus on wall.for 500watt type 0.5 for 1200watt type 1.2 
+type $ zwatts and change power consuption for all gpus on wall.for 500watt type 0.5 for 1200watt type 1.2.change it and on the fly
 
 if you want you do not change the benches and watts. it will work satisfactorily.default hashrates and watts they correspond in one rx470 8gb micron memory.
 
@@ -76,6 +77,6 @@ REF=100
 
 save and type $ apply-oc
 
-if there is interest and donations I will upload a newer version with nicehash and miningpoolhub algo switch
+if there is interest and donations I will upload a newer version with overclocking mods nicehash and miningpoolhub algo switch
 
 donate: bc1qfevx3dv3ctye8xnrxt4mpau4qmuxeqepl8dgqcfqs47p7klck3pqd7ulvw
