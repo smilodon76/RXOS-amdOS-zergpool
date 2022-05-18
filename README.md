@@ -54,7 +54,7 @@ save and type $ minestop to restart miner
 
 # overclocking
 
-# be careful what you do may not damage your cards.
+# be careful what you do may damage your cards.
 
 type $ set-oc and write your gpu oc clocks 
 example for gpu 0 and 1
