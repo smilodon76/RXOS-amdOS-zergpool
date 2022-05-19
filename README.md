@@ -91,9 +91,9 @@ It has amdgpu-fancontroler automatic, the fans do not operate below 40 degrees.
 
 It has amdmemtweak for changing straps while the rig works. Type $sudo amdmemtweak --help
 
-It has amdmeminfo for graphics card memory information, we type $amdmeminfo.
+It has amdmeminfo for graphics card memory information, we type $gpus.
 
-It has a samba server to access the /home/rxos folder and the path is on linux smb://localhost/home/  and on windows smb:\\localhost\home
+It has a samba server to access the /home/rxos folder and the path is on linux smb://localhost/home/  and on windows smb:\\localhost\home userpass is the same rxos and 1.
 
 if there is interest and donations I will upload a newer version with overclocking mods nicehash and miningpoolhub algo switch
 
