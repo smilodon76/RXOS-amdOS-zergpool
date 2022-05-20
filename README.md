@@ -1,5 +1,7 @@
 RXOS MINING OS for amd gpus
 
+version 3.3.2  adding equihash125 144 192 algos, minor fixes  
+
 Download img https://drive.google.com/drive/folders/1ZMJ7LENK5QTchnTLKzmKruas1PqLPvld?usp=sharing
 
 The operating system is very easy, simple and light and is addressed to those who know what mining is, know how to copy an img file to usb, ssd and hdd, have basic knowledge of linux terminal, ssh, nano, computer ip finding and is oriented to long-term durability of graphics cards.
@@ -28,11 +30,11 @@ pass:1
 
 for all commands type $ rxos-help
 
-type $ wallets and paste your coin wallets btc eth rvn etc,zergpool and payout coin
+type $ wallets and paste your coin wallets btc eth rvn etc,zergpool and payout coin for zergpool
 
 # For zergpool algo switching profit
 
-7 algos supported cryptonight_gpu cryptonight_haven etchash ethash firopow kawpow verthash
+10 algos supported cryptonight_gpu cryptonight_haven equihash125 equihash144 equihash192 etchash ethash firopow kawpow verthash
 
 type $ conf and write on globalminer zergpool GLOBALMINER=zergpool
 
@@ -95,6 +97,6 @@ It has amdmeminfo for graphics card memory information, we type $gpus.
 
 It has a samba server to access the /home/rxos folder and the path is on linux smb://localhost/home/  and on windows smb:\\localhost\home userpass is the same rxos and 1.
 
-if there is interest and donations I will upload a newer version with overclocking mods nicehash and miningpoolhub algo switch
+if there is interest and donations I will upload a newer version and  overclocking mods for rx 470-570 micron.
 
 donate: bc1qfevx3dv3ctye8xnrxt4mpau4qmuxeqepl8dgqcfqs47p7klck3pqd7ulvw
