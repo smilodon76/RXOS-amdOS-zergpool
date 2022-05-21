@@ -8,7 +8,7 @@ The operating system is very easy, simple and light and is addressed to those wh
 
 USE IT AT YOUR OWN RISK.
 
-# for now is free to use and do not have fees.
+# is free to use and do not have fees.
 
 It does not have a graphic environment.working only local with ssh.
 It does not have a monitoring.all ports in firewall its closed.
@@ -23,7 +23,7 @@ all edits are done with the nano word processor
 
 for save on nano ctrl+x after y and enter. for cancel ctrl+c.
 
-write the img and brwse to your computer with windows,find disk 'rxos-conf'.paste all your wallets on wallets conf.
+write the img and browse to your computer with windows,find disk 'rxos-conf'.paste all your wallets on wallets conf.
 boot the rig and connect via ssh
 user:rxos
 pass:1
