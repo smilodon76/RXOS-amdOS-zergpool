@@ -1,6 +1,6 @@
 RXOS MINING OS for amd gpus
 
-version 3.3.2  adding equihash125 144 192 algos, minor fixes  
+version 3.3.3 minor fixes  
 
 Download img https://drive.google.com/drive/folders/1ZMJ7LENK5QTchnTLKzmKruas1PqLPvld?usp=sharing
 
@@ -74,12 +74,15 @@ example for gpu 0 and 1
 #gpu core settings#        
 
 cclock0=1100    cclock1=1150    cclock2=    cclock3=    cclock4=    cclock5=
+
 cmv0=875        cmv1=900        cmv2=        cmv3=        cmv4=        cmv5=                     
+
 dpm0=07         dpm1=07         dpm2=         dpm3=         dpm4=         dpm5=                
                     
 #gpu vram settings#
 
 mclock0=1900    mclock1=1950    mclock2=    mclock3=    mclock4=    mclock5=
+
 mmv0=875        mmv1=900        mmv2=        mmv3=        mmv4=        mmv5=
 
 REF=100
