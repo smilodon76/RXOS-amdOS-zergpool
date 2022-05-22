@@ -21,6 +21,10 @@ TDP(w)          85
 TDC(a)          85
 Max Power Limit 85
 
+add this straps to 1750 mhz 777000000000000022AA1C00CE615C4190551014B68C450A0060040074081420EA8900AB020000001712262BA42C3714
+
+and this to 1875 and 2000   777000000000000022AA1C00CE615C4190551014B68C450A0060040074081420EA8900AB020000001712262BA42C3714
+
 save to mod-bios.rom,copy via usb or samba copy the bios to rxos-conf and flash with 'sudo atiflash -p 0 /home/rxos/.conf/mod-bios.rom'
 
 change overclocking 
