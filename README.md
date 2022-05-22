@@ -113,7 +113,7 @@ It has amdmemtweak for changing straps while the rig works. Type $sudo amdmemtwe
 
 It has amdmeminfo for graphics card memory information, we type $gpus.
 
-It has a samba server to access the /home/rxos folder and the path is on linux smb://localhost/home/  and on windows smb:\\localhost\home userpass is the same rxos and 1.
+It has a samba server to access the /home/rxos folder and the path is on linux smb://localhost/rxos  and on windows smb:\\localhost\rxos userpass is the same rxos and 1.
 
 Τhe operating system does not update automatically. you need to download the latest version and copy all the configs from the older one. miner-conf wallets set-oc set-ocB set-ocC
 
