@@ -46,6 +46,8 @@ if you want you do not change the benches and watts. it will work satisfactorily
 
 save and type $ allow to start miner.
 
+in zergpool the profitability seen in the output of the miner is calculated with the zergpool api estimate_current + 24_hours_actual / 2 -power usage cost. if you do not want to subtract the energy consumption in zwatts put all the algorithms to 0
+
 # for other coins and pools
 
 type $ conf and write on globalminer phoenixminer or teamredminer
