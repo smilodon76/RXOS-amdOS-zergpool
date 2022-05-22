@@ -33,7 +33,7 @@ boot the rig and connect via ssh
 user:rxos
 pass:1
 
-change password with $ sudo passwd rxos
+if you want change password with $ sudo passwd rxos
 
 for all commands type $ rxos-help
 
