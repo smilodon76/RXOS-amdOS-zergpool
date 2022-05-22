@@ -1,8 +1,12 @@
 RXOS MINING OS for amd gpus
 
+eth mining is coming to an end and mining with multialgo switch will return to the most profitable.
+
 version 3.3.3 minor fixes  
 
 Download img https://drive.google.com/drive/folders/1ZMJ7LENK5QTchnTLKzmKruas1PqLPvld?usp=sharing
+
+this is the only genuine download link. Anything else you avoid downloading.
 
 The operating system is very easy, simple and light and is addressed to those who know what mining is, know how to copy an img file to usb, ssd and hdd, have basic knowledge of linux terminal, ssh, nano, computer ip finding and is oriented to long-term durability of graphics cards.
 
