@@ -81,6 +81,8 @@ save and type $ apply-oc
 
 done.
 
+the clocks working fine for all polaris 256bit but this straps is only for micron memory
+
 set-oc is basic oc-setting for ethash algos on zergpool and work with other pools and coins with phoenixminer teamredminer
 set-ocB is useful only on zergpool for cryptonight_gpu verthash algos
 set-ocC is useful only on zergpool for progpow and equihash algos.
