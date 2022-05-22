@@ -15,7 +15,7 @@ It does not have a monitoring.all ports in firewall its closed.
 
 Based on ubuntu server 18.04 kernel 4.17 & amdgpu-pro 20.40.
 
-Minimum requirements 8gb usb, hdd, (no tested ssd) 2gb ram.Amd gpus rx460/470/480/550/560/570/580/590 4gb and up no tested rxvega rx5000xt rx6000xt.
+Minimum requirements 8gb usb, hdd, (no tested ssd) 2gb ram.Amd gpus rx460/470/480/550/560/570/580/590 2-4-8gb and up no tested rxvega rx5000xt rx6000xt.
 
 support up to 6 gpus with overclocking and auto fancontrol.
 
@@ -111,8 +111,14 @@ It has amdmeminfo for graphics card memory information, we type $gpus.
 
 It has a samba server to access the /home/rxos folder and the path is on linux smb://localhost/home/  and on windows smb:\\localhost\home userpass is the same rxos and 1.
 
-he operating system does not update automatically. you need to download the latest version and copy all the configs from the older one. miner-conf wallets set-oc set-ocB set-ocC
+Τhe operating system does not update automatically. you need to download the latest version and copy all the configs from the older one. miner-conf wallets set-oc set-ocB set-ocC
 
 if adding more gpus after first run type $ clean-xmr-stak to remove xmr-stak older configs.
 
+if you have 2gb gpus type $ zbenches and put hashrate to 0 equihash125 equihash192 etchash ethash firopow kawpow.
+
+if you have 4gb gpus type $ zbenches and put hashrate to 0 equihash192 firopow
+
 donate: bc1qfevx3dv3ctye8xnrxt4mpau4qmuxeqepl8dgqcfqs47p7klck3pqd7ulvw
+
+Καλά κέρδη.
