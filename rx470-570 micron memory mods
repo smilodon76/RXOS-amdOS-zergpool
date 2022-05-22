@@ -75,9 +75,13 @@ mclock0=1750    mclock1=    mclock2=    mclock3=    mclock4=    mclock5=
 mmv0=856        mmv1=        mmv2=        mmv3=        mmv4=        mmv5=
 
 
-if at set-ocC the gpu crashes slightly increase the cmv and mmv to 860 or 875.
+if at set-ocC the gpu crashes slightly increase the cmmv and mmv to 860 or 875.
 
 save and type $ apply-oc
 
 done.
+
+set-oc is basic oc-setting for ethash algos on zergpool and work with other pools and coins with phoenixminer teamredminer
+set-ocB is useful only on zergpool for cryptonight_gpu verthash algos
+set-ocC is useful only on zergpool for progpow and equihash algos.
 
