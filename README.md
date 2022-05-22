@@ -96,6 +96,8 @@ REF=100
 
 save and type $ apply-oc
 
+if you notice a problem, tell me to fix it. overclocking has not been tried extensively with many cards because I only have one card.
+
 
 It has atiflash for bios change. We type $sudo atiflash -h.
 
