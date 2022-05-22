@@ -48,6 +48,8 @@ if you want you do not change the benches and watts. it will work satisfactorily
 
 save and type $ allow to start miner.
 
+change the hashrate in the same format. otherwise the profitability will not work properly. if there is a big discrepancy between the calculated and the real profit, it is because the hashrate is not enough to find blocks in a reasonable time. the more they use this operating system the closer the profits will be to the estimated
+
 in zergpool the profitability seen in the output of the miner is calculated with the zergpool api  earnings-power usage cost. if you do not want to subtract the energy consumption in zwatts put all the algorithms to 0
 
 # for other coins and pools
