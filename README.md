@@ -132,4 +132,3 @@ type $reload-miners  and after $minestop to restart miner
 
 donate: bc1qfevx3dv3ctye8xnrxt4mpau4qmuxeqepl8dgqcfqs47p7klck3pqd7ulvw
 
-Καλά κέρδη.
