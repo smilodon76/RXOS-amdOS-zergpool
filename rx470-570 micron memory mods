@@ -1,0 +1,73 @@
+increase the efficiency of the card with this mod for micron memory.
+
+save gpu bios with sudo atiflash -s 0 /home/rxos/.conf/original-bios.rom
+modify bios with this clocks
+gpu
+300  800
+500  65282
+750  65283
+950  65283
+1000 65283
+1025 65284
+1050 65284
+1175 65284
+
+memory
+300  1000
+1975 1000
+
+powertune 
+TDP(w)          85
+TDC(a)          85
+Max Power Limit 85
+
+save to mod-bios.rom,copy via usb or samba copy the bios to rxos-conf and flash with 'sudo atiflash -p 0 /home/rxos/.conf/mod-bios.rom'
+
+change overclocking 
+set-oc
+
+cclock0=1125    cclock1=    cclock2=    cclock3=    cclock4=    cclock5=
+cmv0=875        cmv1=        cmv2=        cmv3=        cmv4=        cmv5=                     
+dpm0=07         dpm1=         dpm2=         dpm3=         dpm4=         dpm5=                
+                    
+#gpu vram settings#
+
+mclock0=1975    mclock1=    mclock2=    mclock3=    mclock4=    mclock5=
+mmv0=875        mmv1=        mmv2=        mmv3=        mmv4=        mmv5=
+
+REF=100
+
+
+set-ocB
+
+#gpu core settings#        
+
+cclock0=1175    cclock1=    cclock2=    cclock3=    cclock4=    cclock5=
+cmv0=900        cmv1=        cmv2=        cmv3=        cmv4=        cmv5=                     
+dpm0=07         dpm1=         dpm2=         dpm3=         dpm4=         dpm5=                
+                    
+#gpu vram settings#
+
+mclock0=1750    mclock1=    mclock2=    mclock3=    mclock4=    mclock5=
+mmv0=900        mmv1=        mmv2=        mmv3=        mmv4=        mmv5=
+
+set-ocC
+
+#gpu core settings#        
+
+cclock0=1100    cclock1=    cclock2=    cclock3=    cclock4=    cclock5=
+cmv0=856        cmv1=        cmv2=        cmv3=        cmv4=        cmv5=                     
+dpm0=07         dpm1=         dpm2=         dpm3=         dpm4=         dpm5=                
+                    
+#gpu vram settings#
+
+mclock0=1750    mclock1=    mclock2=    mclock3=    mclock4=    mclock5=
+mmv0=856        mmv1=        mmv2=        mmv3=        mmv4=        mmv5=
+
+
+if at set-ocC the gpu crashes slightly increase the cmmv and mmv to 860 or 875.
+
+save and type $ apply-oc
+
+done.
+
