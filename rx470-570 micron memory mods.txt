@@ -31,7 +31,10 @@ for 4gb gpu memory
 
 add this straps to 1750 mhz and up 777000000000000022AA1C00CE615C4190551014B68C450A0060040074081420EA8900AB020000001712262BA42C3714
 
-save to mod-bios.rom,copy via usb or samba copy the bios to rxos-conf and flash with 'sudo atiflash -p 0 /home/rxos/.conf/mod-bios.rom'
+
+the clocks working fine for all polaris 256bit but this straps is only for micron memory
+
+save to mod-bios.rom ,copy via usb or samba copy the bios to rxos-conf and flash with 'sudo atiflash -p 0 /home/rxos/.conf/mod-bios.rom'
 
 change overclocking 
 set-oc
@@ -80,8 +83,6 @@ if at set-ocC the gpu crashes slightly increase the cmmv and mmv to 860 or 875.
 save and type $ apply-oc
 
 done.
-
-the clocks working fine for all polaris 256bit but this straps is only for micron memory
 
 set-oc is basic oc-setting for ethash algos on zergpool and work with other pools and coins with phoenixminer teamredminer
 set-ocB is useful only on zergpool for cryptonight_gpu verthash algos
