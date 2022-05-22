@@ -43,6 +43,8 @@ type $ conf and write on globalminer zergpool GLOBALMINER=zergpool
 
 type $ zbenches and change your gpus hashrate.change it and on the fly.
 
+if you do not want to mining an algorithm set its hashrate to zero. example zergpool-etchash 0
+
 type $ zwatts and change power consuption for all gpus on wall.for 225watt type 0.225 for 1230watt type 1.230.change it and on the fly
 
 if you want you do not change the benches and watts. it will work satisfactorily.default hashrates and watts they correspond in one rx470 8gb micron memory.
