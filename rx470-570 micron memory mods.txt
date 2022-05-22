@@ -37,16 +37,18 @@ the clocks working fine for all polaris 256bit but this straps is only for micro
 save to mod-bios.rom ,copy via usb or samba copy the bios to rxos-conf and flash with 'sudo atiflash -p 0 /home/rxos/.conf/mod-bios.rom'
 
 change overclocking 
-set-oc
+set-oc                                                                                     set-oc                 #put this clocks for low power usage on ethash.
+                                                                                                                   the shares will be slightly different because zergpool uses vardiff
+#gpu core settings#                                                                        #gpu core settings#  
 
-cclock0=1125    cclock1=    cclock2=    cclock3=    cclock4=    cclock5=
-cmv0=875        cmv1=        cmv2=        cmv3=        cmv4=        cmv5=                     
-dpm0=07         dpm1=         dpm2=         dpm3=         dpm4=         dpm5=                
+cclock0=1125    cclock1=    cclock2=    cclock3=    cclock4=    cclock5=                   cclock0=1100    cclock1=    cclock2=    cclock3=    cclock4=    cclock5=
+cmv0=875        cmv1=        cmv2=        cmv3=        cmv4=        cmv5=                  cmv0=856        cmv1=        cmv2=        cmv3=        cmv4=        cmv5               
+dpm0=07         dpm1=         dpm2=         dpm3=         dpm4=         dpm5=     or       dpm0=07         dpm1=         dpm2=         dpm3=         dpm4=         dpm5=  
                     
-#gpu vram settings#
+#gpu vram settings#                                                                        #gpu vram settings#
 
-mclock0=1975    mclock1=    mclock2=    mclock3=    mclock4=    mclock5=
-mmv0=875        mmv1=        mmv2=        mmv3=        mmv4=        mmv5=
+mclock0=1975    mclock1=    mclock2=    mclock3=    mclock4=    mclock5=                   mclock0=1750    mclock1=    mclock2=    mclock3=    mclock4=    mclock5=
+mmv0=875        mmv1=        mmv2=        mmv3=        mmv4=        mmv5=                  mmv0=856        mmv1=        mmv2=        mmv3=        mmv4=        mmv5=
 
 REF=100
 
