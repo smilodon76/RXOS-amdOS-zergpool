@@ -113,4 +113,6 @@ It has a samba server to access the /home/rxos folder and the path is on linux s
 
 he operating system does not update automatically. you need to download the latest version and copy all the configs from the older one. miner-conf wallets set-oc set-ocB set-ocC
 
+if adding more gpus after first run type $ clean-xmr-stak to remove xmr-stak older configs.
+
 donate: bc1qfevx3dv3ctye8xnrxt4mpau4qmuxeqepl8dgqcfqs47p7klck3pqd7ulvw
