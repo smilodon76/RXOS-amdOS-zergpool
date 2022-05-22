@@ -59,6 +59,8 @@ change the hashrate in the same format. otherwise the profitability will not wor
 
 if you do not want to mining an algorithm put hashrate 0 in zbenches. you can leave only 1 algorithm and only it will work.
 
+do not add the parameter ID= to passwd. it already exists with the hostname of each mining rig.
+
 in zergpool the profitability seen in the output of the miner is calculated with the zergpool api  earnings-power usage cost. if you do not want to subtract the energy consumption in zwatts put all the algorithms to 0
 
 # for other coins and pools
