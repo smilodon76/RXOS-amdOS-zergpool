@@ -28,6 +28,8 @@ boot the rig and connect via ssh
 user:rxos
 pass:1
 
+change password with $ sudo passwd rxos
+
 for all commands type $ rxos-help
 
 type $ wallets and paste your coin wallets btc eth rvn etc,zergpool and payout coin for zergpool
