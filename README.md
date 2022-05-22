@@ -109,6 +109,4 @@ It has amdmeminfo for graphics card memory information, we type $gpus.
 
 It has a samba server to access the /home/rxos folder and the path is on linux smb://localhost/home/  and on windows smb:\\localhost\home userpass is the same rxos and 1.
 
-if there is interest and donations I will upload a newer version and  overclocking mods for rx 470-570 micron.
-
 donate: bc1qfevx3dv3ctye8xnrxt4mpau4qmuxeqepl8dgqcfqs47p7klck3pqd7ulvw
