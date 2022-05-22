@@ -23,7 +23,8 @@ all edits are done with the nano word processor
 
 for save on nano ctrl+x after y and enter. for cancel ctrl+c.
 
-write the img and browse to your computer with windows,find disk 'rxos-conf'.paste all your wallets on wallets conf.
+write the img and browse to your computer with windows,find disk 'rxos-conf'.paste all your wallets on wallets conf,globalminer on miner-conf and overclock settings on set-oc.set-ocB and set-ocC is useful only in zergpool.
+
 boot the rig and connect via ssh
 user:rxos
 pass:1
