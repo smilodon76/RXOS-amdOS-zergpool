@@ -128,7 +128,7 @@ if you have 2gb gpus type $ zbenches and put hashrate to 0 equihash125 equihash1
 if you have 4gb gpus type $ zbenches and put hashrate to 0 equihash192 firopow
 
 updating miners only manualy.download new version of phoenixminer teamredminer and lolminer,copy via usb on partition rxos-conf or with samba.
-type $ reload-miners and $ minestop to restart miner
+type $reload-miners  and after $minestop to restart miner
 
 donate: bc1qfevx3dv3ctye8xnrxt4mpau4qmuxeqepl8dgqcfqs47p7klck3pqd7ulvw
 
