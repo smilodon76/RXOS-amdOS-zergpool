@@ -1,0 +1,78 @@
+increase the efficiency of the 4gb cards with this mod for elpida memory.
+
+save gpu bios with sudo atiflash -s 0 /home/rxos/.conf/original-bios.rom
+modify bios with this clocks
+gpu
+300  800
+500  65282
+750  65283
+950  65283
+1000 65283
+1025 65284
+1050 65284
+1175 65284
+
+memory
+300  1000
+1875 1000
+
+powertune 
+TDP(w)          85
+TDC(a)          85
+Max Power Limit 85
+
+add this straps to 1650 Mhz and up 777000000000000022AA1C00AD593B33A0550F15B38C1506004124007C041420CA8980A9020004C01510232861273315
+
+save to mod-bios.rom ,copy via usb or samba copy the bios to rxos-conf and flash with 'sudo atiflash -p 0 /home/rxos/.conf/mod-bios.rom'
+
+change overclocking 
+set-oc                                                                                     set-oc                 #put this clocks for low power usage on ethash.
+                                                                                                                   the shares will be slightly different because zergpool uses vardiff
+#gpu core settings#                                                                        #gpu core settings#  
+
+cclock0=1125    cclock1=    cclock2=    cclock3=    cclock4=    cclock5=                   cclock0=1100    cclock1=    cclock2=    cclock3=    cclock4=    cclock5=
+cmv0=875        cmv1=        cmv2=        cmv3=        cmv4=        cmv5=                  cmv0=856        cmv1=        cmv2=        cmv3=        cmv4=        cmv5               
+dpm0=07         dpm1=         dpm2=         dpm3=         dpm4=         dpm5=     or       dpm0=07         dpm1=         dpm2=         dpm3=         dpm4=         dpm5=  
+                    
+#gpu vram settings#                                                                        #gpu vram settings#
+
+mclock0=1875    mclock1=    mclock2=    mclock3=    mclock4=    mclock5=                   mclock0=1750    mclock1=    mclock2=    mclock3=    mclock4=    mclock5=
+mmv0=875        mmv1=        mmv2=        mmv3=        mmv4=        mmv5=                  mmv0=856        mmv1=        mmv2=        mmv3=        mmv4=        mmv5=
+
+REF=100                                                                                    REF=100
+
+set-ocB
+
+#gpu core settings#        
+
+cclock0=1175    cclock1=    cclock2=    cclock3=    cclock4=    cclock5=
+cmv0=900        cmv1=        cmv2=        cmv3=        cmv4=        cmv5=                     
+dpm0=07         dpm1=         dpm2=         dpm3=         dpm4=         dpm5=                
+                    
+#gpu vram settings#
+
+mclock0=1750    mclock1=    mclock2=    mclock3=    mclock4=    mclock5=
+mmv0=900        mmv1=        mmv2=        mmv3=        mmv4=        mmv5=
+
+set-ocC
+
+#gpu core settings#        
+
+cclock0=1100    cclock1=    cclock2=    cclock3=    cclock4=    cclock5=
+cmv0=856        cmv1=        cmv2=        cmv3=        cmv4=        cmv5=                     
+dpm0=07         dpm1=         dpm2=         dpm3=         dpm4=         dpm5=                
+                    
+#gpu vram settings#
+
+mclock0=1750    mclock1=    mclock2=    mclock3=    mclock4=    mclock5=
+mmv0=856        mmv1=        mmv2=        mmv3=        mmv4=        mmv5=
+
+if at set-ocC the gpu crashes slightly increase the cmmv and mmv to 860 or 875.
+
+save and type $ apply-oc
+
+set-oc is basic oc-setting for ethash algos on zergpool and work with other pools and coins with phoenixminer teamredminer
+set-ocB is useful only on zergpool for cryptonight_gpu verthash algos
+set-ocC is useful only on zergpool for progpow and equihash algos.
+
+

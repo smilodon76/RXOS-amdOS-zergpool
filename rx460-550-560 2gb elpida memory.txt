@@ -9,4 +9,6 @@ add this strap on 1500 and up 777000000000000022AA1C00AD593B33A0550F15B38C150600
 
 save bios,flash and dont use overclocking settings for this cards on mining.
 
+only in set-oc put the REF=100
+
 if you have lock shaders unlock it with SRBpolaris
