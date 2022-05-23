@@ -65,6 +65,8 @@ do not add the parameter ID= to passwd. it already exists with the hostname of e
 
 in zergpool the profitability seen in the output of the miner is calculated with the zergpool api  earnings-power usage cost. if you do not want to subtract the energy consumption in zwatts put all the algorithms to 0
 
+If an algo has problems connecting to zergpol set the hashrate to 0 for a few hours or days until it comes back.
+
 if the zergool api does not work properly, the miner will work with the last algorithm in alphabetical order, which is currently verthash.
 
 # for other coins and pools
