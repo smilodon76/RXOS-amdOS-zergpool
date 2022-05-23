@@ -1,0 +1,12 @@
+increase the efficiency of the card with this mod only for elpida memory rx 460-550-560 2gb baffin and lexa.
+
+modify your bios  
+
+gpu clock    1075 Mhz for baffin 1175 Mhz for lexa
+memory clock 1750 Mhz
+
+add this strap on 1500 and up 777000000000000022AA1C00AD593B33A0550F15B38C1506004124007C041420CA8980A9020004C01510232861273315
+
+save bios,flash and dont use overclocking settings for this cards on mining.
+
+if you have lock shaders unlock it with SRBpolaris
