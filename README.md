@@ -45,7 +45,7 @@ type $ wallets and paste your coin wallets btc eth rvn etc,zergpool and payout c
 
 type $ conf and write on globalminer zergpool GLOBALMINER=zergpool
 
-type $ zbenches and change your gpus hashrate.change it and on the fly.
+type $ zbenches and change your average gpus hashrate.change it and on the fly.
 
 if you do not want to mining an algorithm set its hashrate to zero. example zergpool-etchash 0
 
