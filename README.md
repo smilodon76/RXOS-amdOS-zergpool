@@ -1,7 +1,5 @@
 RXOS MINING OS for amd gpus
 
-I may have made some mistakes in the description and in the overclocking / bios settings. check this page regularly as well as the download link for any updates. also english is not my native language.
-
 eth mining is coming to an end and mining with multialgo switch will return to the most profitable.
 
 version 3.3.3 minor fixes  
