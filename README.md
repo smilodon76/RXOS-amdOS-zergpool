@@ -1,5 +1,9 @@
 RXOS MINING OS for amd gpus
 
+ANSWER to the questions about whether I have plans to make the corresponding operating system for nvidia cards. at the moment I do not have nvidia cards to try them extensively, there is a preliminary plan but it is far from being a practice. there should also be miners independent of some software that will act as profit trackers for the rest.nvidia's newer graphics cards have better performance and lower consumption and that is why they are superior to older or even newer amd cards. it is good to have a parity.
+
+#####################################################################################################################################################
+
 eth mining is coming to an end and mining with multialgo switch will return to the most profitable.
 
 version 3.3.3 minor fixes  
