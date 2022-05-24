@@ -88,38 +88,19 @@ save and type $ minestop to restart miner
 # overclocking
 
 # be careful what you do may damage your cards.
-
-type $ set-oc and write your gpu oc clocks 
-example for gpu 0 and 1
-
-#gpu core settings#        
-
-cclock0=1100    cclock1=1150    cclock2=    cclock3=    cclock4=    cclock5=
-
-cmv0=875        cmv1=900        cmv2=        cmv3=        cmv4=        cmv5=                     
-
-dpm0=07         dpm1=07         dpm2=         dpm3=         dpm4=         dpm5=                
-                    
-#gpu vram settings#
-
-mclock0=1900    mclock1=1950    mclock2=    mclock3=    mclock4=    mclock5=
-
-mmv0=875        mmv1=900        mmv2=        mmv3=        mmv4=        mmv5=
-
-REF=100
-
-save and type $ apply-oc
+ 
+for overclocking read the guides listed in the download link
 
 if you notice a problem, tell me to fix it. overclocking has not been tried extensively with many cards because I only have one card.
 
 
-It has atiflash for bios change. We type $sudo atiflash -h.
+It has atiflash for bios change. We type $ sudo atiflash -h.
 
 It has amdgpu-fancontroler automatic, the fans do not operate below 40 degrees.
 
-It has amdmemtweak for changing straps while the rig works. Type $sudo amdmemtweak --help
+It has amdmemtweak for changing straps while the rig works. Type $ sudo amdmemtweak --help
 
-It has amdmeminfo for graphics card memory information, we type $gpus.
+It has amdmeminfo for graphics card memory information, we type $ gpus.
 
 It has a samba server to access the /home/rxos folder and the path is on linux smb://localhost/rxos  and on windows smb:\\localhost\rxos userpass is the same rxos and 1.
 
@@ -127,9 +108,9 @@ It has a samba server to access the /home/rxos folder and the path is on linux s
 
 if adding more gpus after first run type $ clean-xmr-stak to remove xmr-stak older configs.
 
-if you have 2gb gpus type $ zbenches and put hashrate to 0 equihash125 equihash192 etchash ethash firopow kawpow.
+if you have 2gb gpus type $ zbenches and put hashrate to 0, equihash125 equihash192 etchash ethash firopow kawpow.
 
-if you have 4gb gpus type $ zbenches and put hashrate to 0 equihash192 firopow
+if you have 4gb gpus type $ zbenches and put hashrate to 0, equihash192 firopow
 
 updating miners only manualy.download new version of phoenixminer teamredminer and lolminer,copy via usb on partition rxos-conf or with samba.
 type $reload-miners  and after $minestop to restart miner
