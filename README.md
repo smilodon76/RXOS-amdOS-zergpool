@@ -93,6 +93,7 @@ for overclocking read the guides listed in the download link
 
 if you notice a problem, tell me to fix it. overclocking has not been tried extensively with many cards because I only have one card.
 
+the miner automatically restarts every 10000 seconds to minimize the risk of a card freezing. the system restarts automatically every week
 
 It has atiflash for bios change. We type $ sudo atiflash -h.
 
