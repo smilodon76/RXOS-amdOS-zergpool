@@ -56,7 +56,7 @@ paste your username on MPHWALLET=
 
 type $ mbenches and change your average gpus hashrate.change it and on the fly.
 
-if you do not want to mining an algorithm set its hashrate to zero. example zergpool-etchash 0
+if you do not want to mining an algorithm set its hashrate to zero. example mph-eth 0
 
 type $ mwatts and change AVERAGE power consuption for all gpus on wall.for 225watt type 225 for 1230watt type 1230 .change it and on the fly
 
