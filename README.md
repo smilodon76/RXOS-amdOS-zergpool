@@ -66,6 +66,10 @@ change ZERO= on miner.conf at the time you want the rig to be activated to check
 
 save and type $ allow or minestop to start miner.
 
+change the hashrate in the same format. otherwise the profitability will not work properly. if there is a big discrepancy between the calculated and the real profit, it is because the hashrate is not enough to find blocks in a reasonable time. the more they use this operating system the closer the profits will be to the estimated.
+
+if you want to make changes to the μπη and the profitability is low, so that the rig is not deactivated, type disallow && minestop
+
 # For ZERGPOOL algo switching profit
 
 10 algos supported cryptonight_gpu cryptonight_haven equihash125 equihash144 equihash192 etchash ethash firopow kawpow verthash
@@ -103,6 +107,8 @@ If an algo has problems connecting to zergpol mph set the hashrate to 0 for a fe
 if the api does not work properly, the miner will work with the last algorithm in alphabetical order, which is currently verthash.
 
  with Kwh price 0.1 the miner in zergpool and miningpoolhub will not work if the energy cost is above profitability. also after 5 minutes and while the miner does not work due to negative profits,The rig will be deactivated for a period of time set by the user on ZERO=. When it is activated again it will check if the profitability is above the energy cost and will act accordingly.
+ 
+ never put 0 watts in an algorithm. put 0 in everything except zergpool-zero & mph-zero only if you do not want the cost of electricity to be calculated.
 
 in zbenches zwatts mbenches mwatts do not make any changes to zergpool-zero mph-zero
 
@@ -141,6 +147,8 @@ It has amdgpu-fancontroler automatic, the fans do not operate below 40 degrees.
 It has amdmemtweak for changing straps while the rig works. Type $ sudo amdmemtweak --help
 
 It has amdmeminfo for graphics card memory information, we type $ gpus.
+
+It has wifi but working only with 802.11g adapters.with 802.11n the rxos freezes.type wifi and change ssid and password and reboot the rig.
 
 It has a samba server to access the /home/rxos folder and the path is on linux smb://localhost/rxos  and on windows smb:\\localhost\rxos userpass is the same rxos and 1.
 
