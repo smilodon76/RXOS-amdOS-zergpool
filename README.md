@@ -6,6 +6,8 @@ version 3.4
 
 changelog
 
+changing algo switch algorithm for better shares per day on most algo in zergpool
+
 changing hashrate format in zergpool for better compatibility
 
 add skein2 algo on zergpool
