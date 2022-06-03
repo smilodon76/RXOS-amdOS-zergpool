@@ -6,7 +6,7 @@ version 3.4
 
 changelog
 
-changing hashrate format for better compatibility
+changing hashrate format in zergpool for better compatibility
 
 add skein2 algo on zergpool
 
