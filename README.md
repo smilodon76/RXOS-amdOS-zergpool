@@ -2,17 +2,15 @@ RXOS MINING OS for amd gpus
 
 eth mining is coming to an end and mining with multialgo switch will return to the most profitable.
 
-version 3.3.8 
+version 3.4
 
 changelog
 
-change files and directories for easy use
+changing hashrate format for better compatibility
 
-add heavyhash algo on zergpool
+add skein2 algo on zergpool
 
-add miningpoolhub multialgo switch mining
-
-change in profitability calculation with very realistic data. with Kwh price 0.1 the miner in zergpool and miningpoolhub will not work if the energy cost is above profitability. also after 5 minutes and while the miner does not work due to negative profits,The rig will be deactivated for a period of time set by the user on ZERO=. When it is activated again it will check if the profitability is above the energy cost and will act accordingly.
+changing in profitability calculation with very realistic data.the miner in zergpool and miningpoolhub will not work if the energy cost is above profitability. also after 5 minutes and while the miner does not work due to negative profits,The rig will be deactivated for a period of time set by the user on ZERO=. When it is activated again it will check if the profitability is above the energy cost and will act accordingly.
 
 Download link https://drive.google.com/drive/folders/1ZMJ7LENK5QTchnTLKzmKruas1PqLPvld?usp=sharing
 
@@ -60,6 +58,8 @@ if you do not want to mining an algorithm set its hashrate to zero. example mph-
 
 type $ mwatts and change AVERAGE power consuption for all gpus on wall.for 225watt type 225 for 1230watt type 1230 .change it and on the fly
 
+type $ mprice and change if you want the price of the KWh in your country
+
 if you want you do not change the benches and watts. it will work satisfactorily.default hashrates and watts they correspond in one rx470 8gb micron memory.
 
 change ZERO= on miner.conf at the time you want the rig to be activated to check if the profitability is above the energy cost. the time is in seconds and the default value is 3000.
@@ -83,6 +83,8 @@ type $ zbenches and change your average gpus hashrate.change it and on the fly.
 if you do not want to mining an algorithm set its hashrate to zero. example zergpool-etchash 0
 
 type $ zwatts and change AVERAGE power consuption for all gpus on wall.for 225watt type 225 for 1230watt type 1230 .change it and on the fly
+
+type $ zprice and change if you want the price of the KWh in your country
 
 if you want you do not change the benches and watts. it will work satisfactorily.default hashrates and watts they correspond in one rx470 8gb micron memory.
 
