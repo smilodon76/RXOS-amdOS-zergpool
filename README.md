@@ -70,7 +70,7 @@ save and type $ allow or minestop to start miner.
 
 change the hashrate in the same format. otherwise the profitability will not work properly. if there is a big discrepancy between the calculated and the real profit, it is because the hashrate is not enough to find blocks in a reasonable time. the more they use this operating system the closer the profits will be to the estimated.
 
-if you want to make changes to the μπη and the profitability is low, so that the rig is not deactivated, type disallow && minestop
+if you want to make changes to the mph and the profitability is low, so that the rig is not deactivated, type disallow && minestop
 
 # For ZERGPOOL algo switching profit
 
