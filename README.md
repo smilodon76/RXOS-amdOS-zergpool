@@ -58,7 +58,7 @@ if you do not want to mining an algorithm set its hashrate to zero. example mph-
 
 type $ mwatts and change AVERAGE power consuption for all gpus on wall.for 225watt type 225 for 1230watt type 1230 .change it and on the fly
 
-type $ mprice and change if you want the price of the KWh in your country
+type $ mprice and change if you want the price of the KWh in your country.default 0.1
 
 if you want you do not change the benches and watts. it will work satisfactorily.default hashrates and watts they correspond in one rx470 8gb micron memory.
 
@@ -86,7 +86,7 @@ if you do not want to mining an algorithm set its hashrate to zero. example zerg
 
 type $ zwatts and change AVERAGE power consuption for all gpus on wall.for 225watt type 225 for 1230watt type 1230 .change it and on the fly
 
-type $ zprice and change if you want the price of the KWh in your country
+type $ zprice and change if you want the price of the KWh in your country.default 0.1
 
 if you want you do not change the benches and watts. it will work satisfactorily.default hashrates and watts they correspond in one rx470 8gb micron memory.
 
