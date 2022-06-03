@@ -72,11 +72,13 @@ if you want to make changes to the μπη and the profitability is low, so that 
 
 # For ZERGPOOL algo switching profit
 
-10 algos supported cryptonight_gpu cryptonight_haven equihash125 equihash144 equihash192 etchash ethash firopow kawpow verthash
+12 algos supported cryptonight_gpu cryptonight_haven equihash125 equihash144 equihash192 etchash ethash firopow heavyhash kawpow skein2 verthash
 
 type $ conf and write on globalminer zergpool GLOBALMINER=zergpool
 
 paste your wallet on ZWALLET= and coin payout to PAYCOIN=
+
+do not add the parameter ID= to passwd . it already exists with the hostname of each mining rig.
 
 type $ zbenches and change your average gpus hashrate.change it and on the fly.
 
@@ -100,15 +102,13 @@ if you want to make changes to the zerpool and the profitability is low, so that
 
 if you do not want to mining an algorithm put hashrate 0 in benches.with this setting the rig stops turning off and checking for energy costs.
 
-do not add the parameter ID= to passwd on zergpool. it already exists with the hostname of each mining rig.
-
 in zergpool mph the profitability seen in the output of the miner is calculated with the api  earnings-power usage cost. if you do not want to subtract the energy consumption in zwatts mwatts put all the algorithms to 0.
 
 If an algo has problems connecting to zergpol mph set the hashrate to 0 for a few hours or days until it comes back.
 
-if the api does not work properly, the miner will work with the last algorithm in alphabetical order, which is currently verthash.
+if the api does not work properly, the miner will work with the last algorithm in alphabetical order, which is currently verthash or zero no work miner.
 
- with Kwh price 0.1 the miner in zergpool and miningpoolhub will not work if the energy cost is above profitability. also after 5 minutes and while the miner does not work due to negative profits,The rig will be deactivated for a period of time set by the user on ZERO=. When it is activated again it will check if the profitability is above the energy cost and will act accordingly.
+ the miner in zergpool and miningpoolhub will not work if the energy cost is above profitability. also after 5 minutes and while the miner does not work due to negative profits,The rig will be deactivated for a period of time set by the user on ZERO=. When it is activated again it will check if the profitability is above the energy cost and will act accordingly.
  
  never put 0 watts in an algorithm. put 0 in everything except zergpool-zero & mph-zero only if you do not want the cost of electricity to be calculated.
 
@@ -162,7 +162,7 @@ if you have 2gb gpus type $ zbenches and put hashrate to 0, equihash125 equihash
 
 if you have 4gb gpus type $ zbenches and put hashrate to 0, equihash192 firopow
 
-updating miners only manualy.download new version of phoenixminer teamredminer and lolminer,copy via usb on partition rxos-conf or with samba.
+updating miners only manualy.download new version of phoenixminer teamredminer lolminer and wildrig-multi,copy via usb on partition rxos-conf or with samba.
 type $reload-miners  and after $minestop to restart miner
 
 If you like it and use it permanently please make a donation to upload new editions.
