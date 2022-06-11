@@ -95,9 +95,9 @@ GLOBALMINER=phoenixminer
 
 ARGS='-proto 1 -gt 25 -coin etc' <== all arguments inside quotes.
 
-POOL=eth.2miners.com:1010
+POOL=etc.2miners.com:1010
 
-WALLET=<wallet_here>
+WALLET=wallet_here
 
 PASS=x
 
