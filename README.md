@@ -75,7 +75,7 @@ change the hashrate in the same format. otherwise the profitability will not wor
 
 if you want to make changes to the zerpool and the profitability is low, so that the rig is not deactivated, type disallow && minestop
 
-in zergpool the profitability seen in the output of the miner is calculated with the api  earnings-power usage cost. if you do not want to subtract the energy consumption in zwatts mwatts put all the algorithms to 0.
+in zergpool the profitability seen in the output of the miner is calculated with the api  earnings-power usage cost. if you do not want to subtract the energy consumption in zwatts put all the algorithms to 0.
 
 If an algo has problems connecting to zergpol comment the hashrate with 0# for a few hours or days until it comes back.
 
@@ -83,11 +83,13 @@ if the api does not work properly, the miner will work with the last algorithm i
 
  the miner in zergpool will not work if the energy cost is above profitability. also after 5 minutes and while the miner does not work due to negative profits,The rig will be deactivated for a period of time 10000sec. When it is auto activated again it will check if the profitability is above the energy cost and will act accordingly.
  
- never put 0 watts in an algorithm. put 0 in everything except zergpool-zero only if you do not want the cost of electricity to be calculated.
+ never put 0 watts in an algorithm. put 0 in everything if you do not want the cost of electricity to be calculated.
 
 in zbenches zwatts do not make any changes to zergpool-zero.
 
 # for other coins and pools
+
+dual mining is not supported
 
 type $ conf and write on globalminer lolminer or phoenixminer or teamredminer or xmr-stak
 
@@ -138,7 +140,7 @@ if you have 2gb gpus type $ zbenches and put hashrate to 0, equihash125 equihash
 if you have 4gb gpus type $ zbenches and put hashrate to 0, equihash192 firopow
 
 updating miners only manualy.download new version of phoenixminer teamredminer lolminer and wildrig-multi,copy via usb on partition rxos-conf or with samba.
-type $reload-miners  and after $minestop to restart miner
+type $reload-miners  and after $ minestop to restart miner
 
 If you like it and use it permanently please make a donation to upload new editions.
 
