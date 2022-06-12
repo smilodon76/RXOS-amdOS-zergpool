@@ -2,7 +2,7 @@ RXOS MINING OS for amd gpus
 
 eth mining is coming to an end and mining with multialgo switch will return to the most profitable.
 
-version 3.4.1
+version 3.4.1is preloaded on phoenixminer.dont usage in ARGS.
 
 changelog
 
@@ -103,7 +103,7 @@ PASS=x
 
 save and type $ minestop to restart miner
 
-this configs (-log 0 -amd -acm -mi 14 -astats 1 -rmode 1) is preloaded on phoenixminer.dont usage in ARGS.
+this configs (-log 0 -amd -acm -mi 14 -astats 1 -rmode 1 -rxboost 1) is preloaded on phoenixminer.dont usage in ARGS.
 
 # overclocking
 
