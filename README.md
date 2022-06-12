@@ -2,7 +2,7 @@ RXOS MINING OS for amd gpus
 
 eth mining is coming to an end and mining with multialgo switch will return to the most profitable.
 
-version 3.4.1is preloaded on phoenixminer.dont usage in ARGS.
+version 3.4.1
 
 changelog
 
@@ -33,11 +33,13 @@ support up to 6 gpus with overclocking and auto fancontrol.
 
 all edits are done with the nano word processor
 
+to paste in ssh putty press the mouse wheel
+
 for save on nano ctrl+x after y and enter. for cancel ctrl+c.
 
 write the img and browse to your computer with windows,find disk 'rxos-conf'.change parameters on miner.conf and overclock settings on set-oc.conf set-ocB.conf and set-ocC.conf is useful only in zergpool.
 
-boot the rig and connect via ssh
+boot the rig and connect via putty ssh
 user:rxos
 pass:1
 
