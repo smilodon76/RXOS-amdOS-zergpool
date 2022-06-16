@@ -2,21 +2,19 @@ RXOS MINING OS for amd gpus
 
 eth mining is coming to an end and mining with multialgo switch will return to the most profitable.
 
-version 3.4.1
+version 3.4.2
 
-changelog
+minor fixes
 
-changing algo switch algorithm for better shares per day on most algo in zergpool
+changing in profitability calculation with very realistic data.the miner in zergpool will not work if the energy cost is above profitability. also after 100sec and while the miner does not work due to negative profits,The rig will be deactivated for a period of time 10000sec. When it is auto activated again it will check if the profitability is above the energy cost and will act accordingly.
 
-add ubqhash algo on zergpool
-
-changing in profitability calculation with very realistic data.the miner in zergpool will not work if the energy cost is above profitability. also after 5 minutes and while the miner does not work due to negative profits,The rig will be deactivated for a period of time 10000sec. When it is auto activated again it will check if the profitability is above the energy cost and will act accordingly.
+the operating system can assist in efficient mining and reduce energy consumption
 
 Download link https://drive.google.com/drive/folders/1ZMJ7LENK5QTchnTLKzmKruas1PqLPvld?usp=sharing
 
 this is the only genuine download link. Anything else you avoid downloading.
 
-The operating system is very easy, simple and light and is addressed to those who know what mining is, know how to copy an img file to usb, ssd and hdd, have basic knowledge of linux terminal, ssh, nano, computer ip finding and is oriented to long-term durability of graphics cards.
+is very easy, simple and light and is addressed to those who know what mining is, know how to copy an img file to usb, ssd and hdd, have basic knowledge of linux terminal, ssh, nano, computer ip finding and is oriented to long-term durability of graphics cards.
 
 USE IT AT YOUR OWN RISK.
 
@@ -61,30 +59,30 @@ do not add the parameter ID= to passwd . it already exists with the hostname of 
 
 type $ zbenches and change your all AVERAGE gpus hashrate.change it and on the fly.
 
+change the hashrate in the same format. otherwise the profitability will not work properly. if there is a big discrepancy between the calculated and the real profit, it is because the hashrate is not enough to find blocks in a reasonable time. the more they use this operating system the closer the profits will be to the estimated.
+
 if you do not want to mining an algorithm comment the hashrate with 0# in benches.example zergpool-verthash 0#493
+
+If an algo has problems connecting to zergpol comment the hashrate with 0# for a few hours or days until it comes back.
 
 type $ zwatts and change AVERAGE power consuption for all gpus on wall.for 225watt type 225 for 1230watt type 1230 .change it and on the fly
 
+never put 0 watts in an algorithm.
+
 type $ zprice and change if you want the price of the KWh in your country.default 0.1
+
+the profitability seen in the output of the miner is calculated with the api  earnings-power usage cost. if you do not want to subtract the energy consumption in zprice put all the prices to 0.
 
 if you want you do not change the benches and watts. it will work satisfactorily but have high power usage.default hashrates and watts they correspond in one rx470 8gb micron memory.
 
 save and type $ allow to start miner.
 
-change the hashrate in the same format. otherwise the profitability will not work properly. if there is a big discrepancy between the calculated and the real profit, it is because the hashrate is not enough to find blocks in a reasonable time. the more they use this operating system the closer the profits will be to the estimated.
-
 if you want to make changes to the zerpool and the profitability is low, so that the rig is not deactivated, type disallow && minestop
-
-in zergpool the profitability seen in the output of the miner is calculated with the api  earnings-power usage cost. if you do not want to subtract the energy consumption in zwatts put all the algorithms to 0.
-
-If an algo has problems connecting to zergpol comment the hashrate with 0# for a few hours or days until it comes back.
 
 if the api does not work properly, the miner will work with the last algorithm in alphabetical order, which is currently verthash or zero (no work miner).
 
- the miner in zergpool will not work if the energy cost is above profitability. also after 5 minutes and while the miner does not work due to negative profits,The rig will be deactivated for a period of time 10000sec. When it is auto activated again it will check if the profitability is above the energy cost and will act accordingly.
+ the miner in zergpool will not work if the energy cost is above profitability. also after 100sec and while the miner does not work due to negative profits,The rig will be deactivated for a period of time 10000sec. When it is auto activated again it will check if the profitability is above the energy cost and will act accordingly.
  
- never put 0 watts in an algorithm. put 0 in everything if you do not want the cost of electricity to be calculated.
-
 in zbenches zwatts do not make any changes to zergpool-zero.
 
 # for other coins and pools
