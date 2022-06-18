@@ -2,7 +2,7 @@ RXOS MINING OS for amd gpus
 
 eth mining is coming to an end and mining with multialgo switch will return to the most profitable.
 
-version 3.4.2
+version 3.4.3
 
 minor fixes
 
@@ -49,7 +49,7 @@ for all commands type $ rxos-help
 
 first modify bios and set overclocks with the guides listed in the download link for low power usage and efficiency.
 
-13 algos supported cryptonight_gpu cryptonight_haven equihash125 equihash144 equihash192 etchash ethash firopow heavyhash kawpow skein2 ubqhash verthash
+12 algos supported cryptonight_gpu cryptonight_haven equihash125 equihash144 equihash192 etchash ethash firopow heavyhash kawpow skein2 verthash
 
 type $ conf and write on globalminer zergpool GLOBALMINER=zergpool
 
@@ -61,7 +61,7 @@ type $ zbenches and change your all AVERAGE gpus hashrate.change it and on the f
 
 change the hashrate in the same format. otherwise the profitability will not work properly. if there is a big discrepancy between the calculated and the real profit, it is because the hashrate is not enough to find blocks in a reasonable time. the more they use this operating system the closer the profits will be to the estimated.
 
-if you do not want to mining an algorithm comment the hashrate with 0# in benches.example zergpool-verthash 0#493
+if you do not want to mining an algorithm comment the hashrate with 0# in benches.example zergpool-verthash 0#494
 
 If an algo has problems connecting to zergpol comment the hashrate with 0# for a few hours or days until it comes back.
 
@@ -69,7 +69,7 @@ type $ zwatts and change AVERAGE power consuption for all gpus on wall.for 225wa
 
 never put 0 watts in an algorithm.
 
-type $ zprice and change if you want the price of the KWh in your country.default 0.1
+type $ zprice and change if you want the price of the KWh in your country.default 0.1 .at this time with a price of 0.1 kilowatt hour the energy consumption is more than the profits. the rig will be deactivated and will check every 10000 seconds if the profitability has changed. if you want you can lower the price per kilowatt hour so as not to turn off. eg 0.07
 
 the profitability seen in the output of the miner is calculated with the api  earnings-power usage cost. if you do not want to subtract the energy consumption in zprice put all the prices to 0.
 
